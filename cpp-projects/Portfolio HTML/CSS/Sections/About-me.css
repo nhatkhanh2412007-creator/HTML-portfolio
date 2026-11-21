@@ -1,0 +1,49 @@
+
+.AboutMe__section {
+    width: 100%;
+    max-width: 1660px;
+    margin: 140px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+
+.AboutMe__container {
+    width: 70%;
+    padding: 48px;
+    background-color: hsla(var(--p-600-code), 0.1);
+    border-radius: 3rem;
+    box-sizing: border-box;
+}
+
+
+.AboutMe__content_container {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 3rem;
+    padding: 3rem 0;
+
+    & h1 {
+        color: var(--p-600);
+    }
+    & p {
+        color: var(--n-600);
+        padding: 0 1rem;
+    }
+
+}
+
+.AboutMe__section {
+    margin-inline: auto;
+}
+
+.AboutMe__container {
+    margin-inline: auto;
+}
